@@ -1,0 +1,36 @@
+    *{ margin:0; padding:0;}
+    li{ list-style:none;}
+    #map{ 
+    	height:auto; 
+    	overflow:hidden; 
+    	margin:20px auto; 
+    	border:1px #ccc solid;     
+    	border-bottom:none; 
+    	border-right:none;
+    }
+    #map li{
+    	box-sizing: border-box;
+    	border:1px #ccc solid; 
+    	border-top:none; 
+    	border-left:none; 
+    	float:left;
+    }
+    #map li.sty1{ background:#e22841;}
+    #map li.sty2{ background:orange;}
+    #map li.sty3{ background:#00bcda;}
+    #btn{ 
+    	width:160px; 
+    	height: 40px;
+    	color: #fff;
+    	text-align: center;
+    	line-height: 40px;
+    	font-size: 16px;
+    	background-color: #00bcda;
+    	border: none;
+    	border-radius: 5px;
+    	position:absolute; 
+    	left:0; 
+    	right: 0;
+    	margin: auto;
+    	cursor: pointer;
+    }
